@@ -1,0 +1,205 @@
+{
+    "SUBSCRIPTIONS": {
+        "TITLE": "구독 - 사용자 프로필 - 타이가",
+        "SECTION_NAME": "지불 계획",
+        "PLAN": "계획",
+        "YOUR_PLAN": "당신의 계획",
+        "YOUR_RECOMMENDED_PLAN": "아마 당신은 고려하고 싶을 거에요.",
+        "WANT_PLAN": "난 이걸 원해요!",
+        "UPDATE_PLAN": "계획을 변경하세요.",
+        "PRIVATE_PROJECTS_LIMIT": "Up to {{number}} private projects + Unlimited public projects!",
+        "PRIVATE_PROJECTS_LIMIT_UNLIMITED": "무제한 비공개 프로젝트 + 무제한 공개 프로젝트!",
+        "EXTRA_SEAT_PER_MONTH": "Extra seat: ${{amount}} more monthly",
+        "EXTRA_SEAT_PER_YEAR": "Extra seat: ${{amount}} more yearly",
+        "MEMBERS_COUNT": "{total, plural, one{one member} other{# members}}",
+        "MEMBERS_LIMIT": "Up to {{number}} different member accounts using any of your private projects!",
+        "MEMBERS_LIMIT_UNLIMITED": "비공개 프로젝트 당 무제한 회원!",
+        "CONTACT_SUBSCRIBE": "<a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>에 문의하여 이 계획을 구독하세요.",
+        "FREQUENCY_MONTH": "월",
+        "FREQUENCY_YEAR": "년",
+        "MAX_PRIVATE_PROJECTS": "더 많은 비공개 프로젝트를 추가 하시겠습니까? <a href='{{url}}'> 계획을 업그레이드 하세요!</a>",
+        "MEMBERS": {
+            "TITLE": "Members",
+            "SECTION_DESCRIPTION": "Currently this are the users that depends on your paid plan. You can remove then from all your private projects from the list bellow or you can manage their memberships in the configuration panel of each project",
+            "NOTIFICATIONS_SELECT": "Notify by mail increments of members"
+        },
+        "USER_PROJECTS_LB": {
+            "TITLE": "Private projects with {{user}}",
+            "EXPLANATION": "These are your private projects where {{user}} is counting for your paid plan. You can manage the presence of the members in the projects from the members panel."
+        },
+        "CONTACT_LB": {
+            "TITLE": "Contact Us",
+            "PLACEHOLDER": "Please contact us and explain your needs",
+            "BUTTON_SEND": "Contact Us",
+            "SUCCESS": "Your message has been sent, we will contact with you soon."
+        },
+        "REMOVE_USER_LB": {
+            "TITLE": "Are you sure?",
+            "TEXT": "This action will remove the user from all your private projects.",
+            "SUCCESS": "The user has been removed",
+            "CONFIRM": "Confirm",
+            "BACK": "Back"
+        },
+        "HELP": {
+            "WHY": "왜 이것이 가장 좋은 계획이라고 생각합니까?",
+            "NO_PROJECTS": "현재 비공개 프로젝트가 없으므로 {{name}} 플랜이 귀하에게 적합 할 것으로 보입니다.",
+            "FEW_PROJECTS": "현재 {{private_num}} 개의 비공개 프로젝트가 존재합니다. {{name}} 계획이  알맞습니다.",
+            "NUM_PROJECTS": "현재 {{private_num}} 개의 비공개 프로젝트와 {{public_num}} 개의 공개 프로젝트가 있으므로 {{plan}} 계획이 최고의 선택일 수도 있습니다.",
+            "NUM_PROJECTS_CUSTOM": "현재 {{private_num}} 개의 비공개 프로젝트와 {{public_num}} 공개 프로젝트가 있습니다. 사용자 정의 계획이 최선의 선택으로 보입니다.",
+            "UPGRADE": "현재 계획을 쉽게 변경할 수 있으며 언제든지 완료 할 수 있습니다!",
+            "PAYMENT": "개인 프로젝트가 1개를 초과하고 아직 지불 계획을 구독하지 않은 경우, 귀하의 비공개 프로젝트는 일시적으로 차단됩니다. 하지만 걱정마세요, 삭제되지 않습니다. 계획 구독을 승인하면 다시 접근하실 수 있습니다.",
+            "PUBLIC": "공공 프로젝트는 지불 계획에 포함되지 않는다는 것을 기억하십시오.",
+            "MORE_INFO_TITLE": "자주 묻는 질문",
+            "MORE_INFO": "더 많은 정보 (FAQ)"
+        },
+        "PAYMENT_HISTORY": {
+            "SEE_BILLING_DETAILS": "결제 세부 정보보기",
+            "CHANGE_DATA": "지불 수단 변경",
+            "CHANGE_DATA_SUCCESS": "훌륭해요! 지불 세부 사항을 성공적으로 변경하셨습니다."
+        },
+        "PLANS_SELECTOR": {
+            "TITLE": "어떤 계획이 당신에게 가장 잘 맞습니까?",
+            "CURRENT": "현재 계획",
+            "CUSTOM": "사용자 정의",
+            "CONTACT": "더 많은 프로젝트나 더 많은 프로젝트당 회원을 허용하는 지불 계획이 필요한 경우 <a href='mailto:support@tuesmon.com' title='연락처'>support@tuesmon.com</a>로 더 자세한 정보를 문의해주세요."
+        },
+        "CANCEL": {
+            "TITLE": "Cancel {{plan}} plan",
+            "CANCEL_NOW": "Cancel plan now",
+            "IF_CANCEL": "If you cancel your plan now:",
+            "IMPLICATION_1": "You will go to the {{ plan }} plan but <strong>your projects will be deleted</strong>",
+            "IMPLICATION_2": "Members of those projects will no longer be able to access them",
+            "ADVISE": "If you do not want to lose the information, before canceling the plan, <strong>export your data</strong> from the Admin of each project.",
+            "SUCCESS": "Congratulations, you successfully cancelled your plan!"
+        },
+        "DOWNGRADE": {
+            "TITLE": "Downgrade to {{plan}} plan",
+            "IMAGE_ALT": "계획 다운그레이드 하기",
+            "MUST_CHANGE": "To change to {{plan}} plan, you must first make the following changes",
+            "MORE_PROJECTS": "{{projects}} 개 이상의 비공개 프로젝트가있는 경우",
+            "MORE_PROJECTS_OPTION": "Choose 1 project to remain private and make public or remove the rest projects. You can perform these changes on the upper menu cliking Manage Projects",
+            "MORE_MEMBERS": "개인 프로젝트 당 {{members}} 명 이상의 회원이있는 경우",
+            "MORE_MEMBERS_OPTION1": "Go to Manage Members (Your plan) and keep a maximum of {{members}} members for all your private projects",
+            "WHY_MAKE_CHANGES": "Why do I have to make these changes?",
+            "REASON_WHY": "Unfortunately, you exceeded the maximum number of private projects or number of members allowed by {{ plan }} plan. This plan allows up to <strong>{{projects}} private projects and {{members}} members per private project</strong>",
+            "ACCEPT": "네, 이해했습니다.",
+            "ARE_YOU_SURE": "Are you sure you want to change this plan?"
+        },
+        "SELECT_PLAN": {
+            "TITLE": "Change your Plan",
+            "SUBTITLE": "Choose the plan that best meets your needs",
+            "ABOUT_TO_CHANGE": "You are about change to {{ plan }} plan",
+            "INTERVAL": "어떻게 청구 하시겠습니까?",
+            "PAY_MONTHLY": "매월",
+            "PAY_YEARLY": "매년",
+            "BACK": "뒤로",
+            "BACK_TITLE": "계획 선택으로 돌아가기",
+            "BUY": "구매 계획",
+            "CONTINUE": "계속",
+            "CONFIRM": "Confirm",
+            "EVERY_YEAR": "매년",
+            "EVERY_MONTH": "매달",
+            "TAXES": "귀하의 국가에 따라 판매 세금을 부과해야 할 수도 있습니다.",
+            "SUCCESS": "Congratulations, you successfully changed your plan!",
+            "START_SUBSCRIPTION": "구독 시작",
+            "PAY": "{{ amount }} 지불",
+            "CHANGE_TO": "Change to {{ plan }} plan",
+            "CANCEL_CURRENT_PLAN": "Cancel {{ plan }} plan",
+            "CANCEL_PLAN_ADVISE": "When you cancel your {{ currentPlan }} plan you will subscribe to the {{ newPlan }} plan with basic features",
+            "CONTINUE_WITH": "Continue with {{ plan }} plan"
+        },
+        "PLAN_OPTIONS": {
+            "BASIC_PLAN": "Basic",
+            "FREE_PLAN": "Free",
+            "PREMIUM_PLAN": "Premium",
+            "ENTERPRISE_PLAN": "Enterprise",
+            "MANAGE_MEMBERS": "Manage members",
+            "DOWNGRADE": "Downgrade",
+            "UPDATE": "Update",
+            "UPGRADE": "Upgrade",
+            "CHANGE_PLAN": "Change Plan",
+            "CANCEL_PLAN": "Cancel Plan",
+            "CONTACT_US": "Contact us",
+            "PREMIUM_GBS": "Up to 10GB of storage",
+            "PREMIUM_NUM_USERS": "Unlimited number of members",
+            "PREMIUM_NUM_PRIVATE_PROJECTS": "Unlimited private projects",
+            "PREMIUM_NUM_PUBLIC_PROJECTS": "Unlimited public projects",
+            "FREE_NUM_USERS": "Up to 3 members on private project",
+            "FREE_NUM_PRIVATE_PROJECTS": "1 private project",
+            "FREE_NUM_PUBLIC_PROJECTS": "Unlimited public projects",
+            "FREE_GBS": "Up to 300MB of storage in private projects",
+            "ENTERPRISE_DISCCOUNT": "<strong>Discounts after 30 and 100 users</strong></br>up to 70% discount",
+            "ENTERPRISE_IDEAL_FOR": "Ideal for large teams or organisations requiring special support to use Tuesmon on our tuesmon.com Cloud offering. Discounts apply automatically beyond the 30 and 100 user mark.",
+            "YOUR_CURRENT_PLAN": "Your current plan",
+            "CURRENT_PLAN_DESCRIPTION": "Currently in your private projects there are {{members}} members.",
+            "PER_MEMBER_YEARLY": "Per team member when on a yearly plan",
+            "PER_MEMBER_MONTHLY": "${{ amount }}/mo per team member when on a monthly plan",
+            "FAIR_POLICY": "Our fair pricing policy: we will adjust your invoice to ensure yor are charged every month only for the exact number of users you have active. Upgrade and downgrade as needed.",
+            "PER_MONTH": "/ mo",
+            "ON_TUESMON_CLOUD": "On the <strong>tuesmon.com</strong> cloud"
+        },
+        "NOTIFY_LIMIT": {
+            "SUCCESS": "Notify limit changed correctly"
+        }
+    },
+    "PROJECT": {
+        "BLOCKED_PROJECT": {
+            "ITS_ONLY_TEMPORAL": "걱정마세요, 이건 임시용입니다.",
+            "TO_UNBLOCK_CHECK_YOUR_PLAN": "프로젝트의 차단을 해제하려면, 먼저 현재 보유하고 있는 비공개 프로젝트 수 보다 많은 지불 계획을 구독하십시오.",
+            "TO_UNBLOCK_CONTACT_SUPPORT": "프로젝트를 차단 해제하려면 <a href=\"mailto:support@tuesmon.com\" title=\"지원\">support@tuesmon.com</a>로 문의하십시오.",
+            "CHECK_PLANS": "계획 확인",
+            "TO_UNBLOCK_PROJECT_MEMBER": "내 프로젝트가 왜 차단 되었습니까?"
+        },
+        "IMPORT": {
+            "PROJECT_RESTRICTIONS": {
+                "PROJECT_MEMBERS_DESC_PRIVATE_SEED": "가져오기하려는 프로젝트가 본인을 포함해 {{members}} 명의 회원이 있습니다. 아쉽지만 당신의 현재 계획은 seed 계획에서 허용된 최대 {{max_memberships}} 명의 회원을 허용하고 있습니다. 더 많은 회원을 추가하고 싶다면, <a href='/user-settings/contrib/subscriptions' title='유료 계획 신청하기'>를 고려해 보세요.</a>.",
+                "PROJECT_MEMBERS_DESC_PRIVATE": "가져오기하려는 프로젝트에 {{members}} 회원이 있습니다. 아쉽게도 현재 계획에서는 비공개 프로젝트 당 최대 {{max_memberships}} 명의 회원을 허용합니다. 더 많은 사용자를 추가하고 싶다면 <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>를 통해 관리자에게 문의하십시오.",
+                "CHANGE_PLAN": "계획 변경",
+                "PRIVATE_PROJECTS_SPACE": {
+                    "TITLE": "불행히도 현재 설정에서는 더 많은 비공개 프로젝트가 허용되지 않았습니다.",
+                    "DESC": "가져 오기하려는 프로젝트는 비공개입니다. 안타깝지만 당신의 현재 설정으로는 더 이상의 비공개 프로젝트가 허용되지 않았습니다. 이 한도를 높이려면 현재 계획을 변경하는 것이 좋습니다."
+                },
+                "PRIVATE_PROJECTS_MEMBERS": {
+                    "TITLE": "현재 설정은 비공개 프로젝트 당 최대 {{max_memberships}} 명의 회원을 허용합니다."
+                },
+                "PRIVATE_PROJECTS_SPACE_MEMBERS": {
+                    "TITLE": "아쉽게도 현재 설정으로는 더 많은 비공개 프로젝트를 추가하거나 개인 프로젝트 당 {{max_memberships}} 명 이상의 회원을 활성화 할 수 없습니다.",
+                    "DESC": "안타깝게도, 가져 오려는 프로젝트에는 {{max_memberships}} 명 이상이 포함되어 있습니다. 현재 설정에서 허용되는 최대 값입니다. 이와 같은 프로젝트를 가져 오려면 현재 계획을 변경하는 것이 좋습니다."
+                }
+            }
+        },
+        "CREATE": {
+            "MAX_PRIVATE_PROJECTS": "Unfortunately, you've reached the maximum number of private projects.",
+            "MAX_PUBLIC_PROJECTS": "아쉽지만 더는 공개프로젝트를 생성할 수 없습니다.",
+            "CREATE_MORE_PROJECTS": "더 생성하고 싶다면",
+            "CHANGE_PLAN": "현재의 계획을 변경하세요."
+        }
+    },
+    "ADMIN": {
+        "PROJECT_TRANSFER": {
+            "CANT_BE_OWNED": "현재 이 유형의 프로젝트 소유자가 될 수 없습니다. 이 프로젝트의 소유자가되고 싶다면 <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>를 통해 관리자에게 문의하십시오.",
+            "CANT_BE_OWNED_BY_MEMBERSHIPS": "현재이 유형의 프로젝트 소유자가 될 수 없습니다. 이 프로젝트의 소유자가되고 싶다면 <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>를 통해 관리자에게 문의하십시오."
+        },
+        "MEMBERSHIPS": {
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_ADMIN": "If you would like to <strong>add more members</strong>, please contact the project owner <a href='mailto:{{ owner_email }}' title='{{ owner_email }}'>{{ owner_email }}</a>, who is currently authorized to upgrade the current plan.",
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_OWNER_WITH_LIMITED_PLAN": "This project currently has <strong>{{members}}</strong> members, which is the maximum allowed. If you would like to <strong>add more members</strong>, please upgrade your plan."
+        }
+    },
+    "LIGHTBOX": {
+        "CREATE_MEMBER": {
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_OWNER": "이 프로젝트에 허용된 최대 회원수 인 <strong>{{maxMembers}}</strong> 회원수에 도달하려고합니다. 더 많은 회원이 필요하다면 <a href='/user-settings/contrib/subscriptions' title='유료 계획 구독하기'>유료 계획 구독하기</a>를 고려해보세요. 이미 가지고 계시다면<a href='mailto:support@tuesmon.com' title='support@tuesmon.com로 문의하기'>support@tuesmon.com</a>로 문의해주세요."
+        }
+    },
+    "TUESMON_APP": {
+        "TITLE": "Subscriptions - User Profile - Tuesmon",
+        "SECTION_NAME": "Tuesmon App",
+        "SECTION_SUBTITLE": "Want to use Tuesmon on your mobile?",
+        "TUESMON_APP_DESCRIPTION": "<a href='http://www.tuesmonapp.com/' target='_blank'>TuesmonApp</a> is an application developed completely independent from Tuesmon.com but with which we have reached an agreement so you can use <strong>for free if you have a premium or enterprise plan</strong>",
+        "TUESMON_APP_DOWNLOAD": "Just download the application and synchronize your Tuesmon account entering next code:",
+        "TUESMON_APP_VALID": "This code is valid only for your Tuesmon account",
+        "TUESMON_APP_COPY_BUTTON": "Copy",
+        "TUESMON_APP_DEVELOPED": "TuesmonApp is developed by a totally independent team of Tuesmon.com.",
+        "TUESMON_APP_SAT": "To notify of any incident in the application, contact your customer service.",
+        "TUESMON_APP_UPGRADE": "If you want to enjoy free on your mobile, <a href='/user-settings/contrib/subscriptions'>upgrade your plan!</a>"
+    }
+}

@@ -1,0 +1,44 @@
+header
+    h1
+        span Tuesmon
+        span.green {{vm.sectionName}}
+
+section.tuesmon-app-info(tg-select-input-text)
+    header
+        h2.title(translate="TUESMON_APP.SECTION_SUBTITLE")
+
+    p.text(translate="TUESMON_APP.TUESMON_APP_DESCRIPTION")
+
+
+    p.text(ng-if="!vm.appCode", translate="TUESMON_APP.TUESMON_APP_UPGRADE")
+
+    .tuesmon-app-code(ng-if="vm.appCode")
+        p.text(translate="TUESMON_APP.TUESMON_APP_DOWNLOAD")
+        .app-code
+                input(type="text", readonly, ng-value="vm.appCode")
+                a.button-green.select-input-content(
+                    href="#"
+                    title="Copy"
+                    translate="TUESMON_APP.TUESMON_APP_COPY_BUTTON"
+                )
+
+        p.text {{'TUESMON_APP.TUESMON_APP_VALID' | translate}}
+            a {{ vm.user.get('email') }}
+
+    .tuesmon-app-screens
+        img(
+            src="/#{v}/images/tuesmon-contrib-subscriptions/images/tuesmonapp1.png",
+            alt="TuesmonApp"
+        )
+        img(
+            src="/#{v}/images/tuesmon-contrib-subscriptions/images/tuesmonapp2.png",
+            alt="TuesmonApp"
+        )
+        img(
+            src="/#{v}/images/tuesmon-contrib-subscriptions/images/tuesmonapp3.png",
+            alt="TuesmonApp"
+        )
+
+    p.text
+        span {{ 'TUESMON_APP.TUESMON_APP_DEVELOPED' | translate }}</br>
+        span {{ 'TUESMON_APP.TUESMON_APP_SAT' | translate }}

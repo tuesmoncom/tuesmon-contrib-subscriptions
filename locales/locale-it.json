@@ -1,0 +1,205 @@
+{
+    "SUBSCRIPTIONS": {
+        "TITLE": "Sottoscrizioni - Profilo Utente - Tuesmon",
+        "SECTION_NAME": "Piani a pagamento",
+        "PLAN": "Piano",
+        "YOUR_PLAN": "Il tuo piano",
+        "YOUR_RECOMMENDED_PLAN": "Potrebbe interessarti",
+        "WANT_PLAN": "Lo voglio!",
+        "UPDATE_PLAN": "Cambia piano",
+        "PRIVATE_PROJECTS_LIMIT": "Up to {{number}} private projects + Unlimited public projects!",
+        "PRIVATE_PROJECTS_LIMIT_UNLIMITED": "Progetti privati illimitati + progetti pubblici illimitati!",
+        "EXTRA_SEAT_PER_MONTH": "Extra seat: ${{amount}} more monthly",
+        "EXTRA_SEAT_PER_YEAR": "Extra seat: ${{amount}} more yearly",
+        "MEMBERS_COUNT": "{total, plural, one{one member} other{# members}}",
+        "MEMBERS_LIMIT": "Up to {{number}} different member accounts using any of your private projects!",
+        "MEMBERS_LIMIT_UNLIMITED": "Un numero illimitato di membri per i progetti privati!",
+        "CONTACT_SUBSCRIBE": "Abbonati a questo piano contattandoci <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>",
+        "FREQUENCY_MONTH": "mese",
+        "FREQUENCY_YEAR": "anno",
+        "MAX_PRIVATE_PROJECTS": "Vorresti aggiungere più progetti privati? <a href='{{url}}'>Aggiorna il tuo piano!</a>",
+        "MEMBERS": {
+            "TITLE": "Members",
+            "SECTION_DESCRIPTION": "Currently this are the users that depends on your paid plan. You can remove then from all your private projects from the list bellow or you can manage their memberships in the configuration panel of each project",
+            "NOTIFICATIONS_SELECT": "Notify by mail increments of members"
+        },
+        "USER_PROJECTS_LB": {
+            "TITLE": "Progetto privato con {{user}}",
+            "EXPLANATION": "These are your private projects where {{user}} is counting for your paid plan. You can manage the presence of the members in the projects from the members panel."
+        },
+        "CONTACT_LB": {
+            "TITLE": "Contattaci",
+            "PLACEHOLDER": "Please contact us and explain your needs",
+            "BUTTON_SEND": "Contattaci",
+            "SUCCESS": "Your message has been sent, we will contact with you soon."
+        },
+        "REMOVE_USER_LB": {
+            "TITLE": "Sei sicuro?",
+            "TEXT": "This action will remove the user from all your private projects.",
+            "SUCCESS": "The user has been removed",
+            "CONFIRM": "Conferma",
+            "BACK": "Indietro"
+        },
+        "HELP": {
+            "WHY": "Perché pensiamo che questo potrebbe essere il miglior piano per te?",
+            "NO_PROJECTS": "Al momento non hai progetti privati, crediamo che il piano {{name}}  potrebbe essere adatto a te.",
+            "FEW_PROJECTS": "Attualmente hai {{private_num}} progetti privati quindi crediamo che il piano {{name}} potrebbe andare bene per te.",
+            "NUM_PROJECTS": "Visto che attualmente hai {{private_num}} progetti privati e {{public_num}} progetti pubblici crediamo che il piano {{plan}} possa essere quello adatto alle tue esigenze.",
+            "NUM_PROJECTS_CUSTOM": "Dato che attualmente hai {{private_num}} progetti privati e {{public_num}} progetti pubblici crediamo che il piano Personalizzato potrebbe essere quello più adatto alle tue esigenze.",
+            "UPGRADE": "Modificare il tuo piano attuale è facile e può essere fatto in qualsiasi momento!",
+            "PAYMENT": "Se hai più di 1 progetto privato e non sei abbonato ad un piano a pagamento i tuoi progetti privati saranno temporaneamente bloccati. Non preoccuparti, non saranno cancellati. Una volta confermato il piano a pagamento torneranno ad essere accessibili.",
+            "PUBLIC": "Per favore ricorda che i progetti pubblici non contano nei piani a pagamento.",
+            "MORE_INFO_TITLE": "Domande frequenti (FAQ)",
+            "MORE_INFO": "Altre informazioni (FAQ)"
+        },
+        "PAYMENT_HISTORY": {
+            "SEE_BILLING_DETAILS": "Vedi i dettagli di fatturazione",
+            "CHANGE_DATA": "Cambia i dettagli di pagamento",
+            "CHANGE_DATA_SUCCESS": "Ottimo! Hai cambiato i tuoi estremi di pagamento con successo"
+        },
+        "PLANS_SELECTOR": {
+            "TITLE": "Che piano è adatto a te?",
+            "CURRENT": "Piano attuale",
+            "CUSTOM": "Personalizzato",
+            "CONTACT": "Se hai necessità di un piano a pagamento per più progetti o più membri per progetto contattaci <a href='mailto:support@tuesmon.com' title='Contact Us'>support@tuesmon.com</a> per maggiori informazioni."
+        },
+        "CANCEL": {
+            "TITLE": "Cancel {{plan}} plan",
+            "CANCEL_NOW": "Cancel plan now",
+            "IF_CANCEL": "If you cancel your plan now:",
+            "IMPLICATION_1": "You will go to the {{ plan }} plan but <strong>your projects will be deleted</strong>",
+            "IMPLICATION_2": "Members of those projects will no longer be able to access them",
+            "ADVISE": "If you do not want to lose the information, before canceling the plan, <strong>export your data</strong> from the Admin of each project.",
+            "SUCCESS": "Congratulations, you successfully cancelled your plan!"
+        },
+        "DOWNGRADE": {
+            "TITLE": "Downgrade to {{plan}} plan",
+            "IMAGE_ALT": "Passa a un tipo di piano più semplice",
+            "MUST_CHANGE": "To change to {{plan}} plan, you must first make the following changes",
+            "MORE_PROJECTS": "Se hai più di {{projects}} progetti privati",
+            "MORE_PROJECTS_OPTION": "Choose 1 project to remain private and make public or remove the rest projects. You can perform these changes on the upper menu cliking Manage Projects",
+            "MORE_MEMBERS": "Se hai più di {{members}} membri per ogni progetto privato",
+            "MORE_MEMBERS_OPTION1": "Go to Manage Members (Your plan) and keep a maximum of {{members}} members for all your private projects",
+            "WHY_MAKE_CHANGES": "Why do I have to make these changes?",
+            "REASON_WHY": "Unfortunately, you exceeded the maximum number of private projects or number of members allowed by {{ plan }} plan. This plan allows up to <strong>{{projects}} private projects and {{members}} members per private project</strong>",
+            "ACCEPT": "OK, capito",
+            "ARE_YOU_SURE": "Are you sure you want to change this plan?"
+        },
+        "SELECT_PLAN": {
+            "TITLE": "Change your Plan",
+            "SUBTITLE": "Choose the plan that best meets your needs",
+            "ABOUT_TO_CHANGE": "You are about change to {{ plan }} plan",
+            "INTERVAL": "Come preferisci che siano addebitate le spese?",
+            "PAY_MONTHLY": "Mensile",
+            "PAY_YEARLY": "Annuale",
+            "BACK": "Torna indietro",
+            "BACK_TITLE": "Torna alla selezione Piano",
+            "BUY": "Compra il Piano",
+            "CONTINUE": "Continua",
+            "CONFIRM": "Conferma",
+            "EVERY_YEAR": "Ogni anno",
+            "EVERY_MONTH": "Ogni mese",
+            "TAXES": "Potremmo applicare delle imposte di vendita a seconda della nazione in cui risiedi.",
+            "SUCCESS": "Congratulations, you successfully changed your plan!",
+            "START_SUBSCRIPTION": "Fai partire la sottoscrizione",
+            "PAY": "Paga {{ amount }}",
+            "CHANGE_TO": "Change to {{ plan }} plan",
+            "CANCEL_CURRENT_PLAN": "Cancel {{ plan }} plan",
+            "CANCEL_PLAN_ADVISE": "When you cancel your {{ currentPlan }} plan you will subscribe to the {{ newPlan }} plan with basic features",
+            "CONTINUE_WITH": "Continue with {{ plan }} plan"
+        },
+        "PLAN_OPTIONS": {
+            "BASIC_PLAN": "Basic",
+            "FREE_PLAN": "Gratuito",
+            "PREMIUM_PLAN": "Premium",
+            "ENTERPRISE_PLAN": "Enterprise",
+            "MANAGE_MEMBERS": "Gestisci membri",
+            "DOWNGRADE": "Downgrade",
+            "UPDATE": "Aggiorna",
+            "UPGRADE": "Upgrade",
+            "CHANGE_PLAN": "Change Plan",
+            "CANCEL_PLAN": "Cancel Plan",
+            "CONTACT_US": "Contattaci",
+            "PREMIUM_GBS": "Up to 10GB of storage",
+            "PREMIUM_NUM_USERS": "Unlimited number of members",
+            "PREMIUM_NUM_PRIVATE_PROJECTS": "Unlimited private projects",
+            "PREMIUM_NUM_PUBLIC_PROJECTS": "Unlimited public projects",
+            "FREE_NUM_USERS": "Up to 3 members on private project",
+            "FREE_NUM_PRIVATE_PROJECTS": "1 private project",
+            "FREE_NUM_PUBLIC_PROJECTS": "Unlimited public projects",
+            "FREE_GBS": "Up to 300MB of storage in private projects",
+            "ENTERPRISE_DISCCOUNT": "<strong>Discounts after 30 and 100 users</strong></br>up to 70% discount",
+            "ENTERPRISE_IDEAL_FOR": "Ideal for large teams or organisations requiring special support to use Tuesmon on our tuesmon.com Cloud offering. Discounts apply automatically beyond the 30 and 100 user mark.",
+            "YOUR_CURRENT_PLAN": "Il tuo piano attuale",
+            "CURRENT_PLAN_DESCRIPTION": "Currently in your private projects there are {{members}} members.",
+            "PER_MEMBER_YEARLY": "Per team member when on a yearly plan",
+            "PER_MEMBER_MONTHLY": "${{ amount }}/mo per team member when on a monthly plan",
+            "FAIR_POLICY": "Our fair pricing policy: we will adjust your invoice to ensure yor are charged every month only for the exact number of users you have active. Upgrade and downgrade as needed.",
+            "PER_MONTH": "/ mo",
+            "ON_TUESMON_CLOUD": "On the <strong>tuesmon.com</strong> cloud"
+        },
+        "NOTIFY_LIMIT": {
+            "SUCCESS": "Notify limit changed correctly"
+        }
+    },
+    "PROJECT": {
+        "BLOCKED_PROJECT": {
+            "ITS_ONLY_TEMPORAL": "Non preoccuparti, dovrebbe essere temporaneo",
+            "TO_UNBLOCK_CHECK_YOUR_PLAN": "Per sbloccare i progetti, prima abbonati ad un piano che consente almeno tanti progetti quanti ne hai al momento",
+            "TO_UNBLOCK_CONTACT_SUPPORT": "Per sbloccare i tuoi progetti per favore contatta <a href=\"mailto:support@tuesmon.com\" title=\"support\">support@tuesmon.com</a>",
+            "CHECK_PLANS": "Controlla abbonamento",
+            "TO_UNBLOCK_PROJECT_MEMBER": "Perche il mio progetto è bloccato?"
+        },
+        "IMPORT": {
+            "PROJECT_RESTRICTIONS": {
+                "PROJECT_MEMBERS_DESC_PRIVATE_SEED": "Il progetto che vuoi importare ha {{members}} membri incluso te, sfortunatamente, il tuo corrente piano prevede un massimo di {{max_memberships}} membri che è il massimo consentito per il Pacchetto Seme. Se vuoi aggiungere altri membri, potresti considerare di <a href='/user-settings/contrib/subscriptions' title='Subscribe to a paid plan'> sottoscrivere un piano a pagamento</a>.",
+                "PROJECT_MEMBERS_DESC_PRIVATE": "Il progetto che stai cercando di importare ha {{members}} membri incluso te, purtroppo, il tuo corrente piano ti permette di avere un massimo di {{max_memberships}} membri per un progetto privato.  Se vuoi aggiungere altri utenti per favore contatta i nostri amministratori a<a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>.",
+                "CHANGE_PLAN": "Cambia piano",
+                "PRIVATE_PROJECTS_SPACE": {
+                    "TITLE": "Purtroppo, le tue attuali impostazioni non ti permettono di avere nuovi progetti privati",
+                    "DESC": "Il progetto che stai cercando di importare è privato, purtroppo le tue correnti impostazioni non permettono di aggiungere nuovi progetti privati. Se vuoi alzare questo limite, puoi considerare di cambiare il tuo piano attuale."
+                },
+                "PRIVATE_PROJECTS_MEMBERS": {
+                    "TITLE": "La tua configurazione attuale permette un massimo di {{max_memberships}} membri per progetto privato"
+                },
+                "PRIVATE_PROJECTS_SPACE_MEMBERS": {
+                    "TITLE": "Purtroppo la tua configurazione attuale non ti permette di aggiungere più progetti privati o attivare più di {{max_memberships}} membri per progetto privato",
+                    "DESC": "Purtroppo, il progetto che stai cercando di importare contiene più di {{max_memberships}} membri, che è il massimo permesso dalla tua configurazione. Se vuoi importare progetti come questo, potresti voler cambiare il tuo piano attuale."
+                }
+            }
+        },
+        "CREATE": {
+            "MAX_PRIVATE_PROJECTS": "Unfortunately, you've reached the maximum number of private projects.",
+            "MAX_PUBLIC_PROJECTS": "Unfortunately, you've reached the maximum number of public projects.",
+            "CREATE_MORE_PROJECTS": "Per crearne altri, dovresti",
+            "CHANGE_PLAN": "cambia il tuo piano attuale"
+        }
+    },
+    "ADMIN": {
+        "PROJECT_TRANSFER": {
+            "CANT_BE_OWNED": "Al momento non puoi diventare proprietario di una progetto di questo tipo. Se vuoi diventare proprietario di questo progetto, per favore contatta l'amministratore a <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>",
+            "CANT_BE_OWNED_BY_MEMBERSHIPS": "Al momento non puoi diventare proprietario di una progetto di questo tipo. Se vuoi diventare proprietario di questo progetto, per favore contatta l'amministratore a <a href='mailto:support@tuesmon.com'>support@tuesmon.com</a>"
+        },
+        "MEMBERSHIPS": {
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_ADMIN": "If you would like to <strong>add more members</strong>, please contact the project owner <a href='mailto:{{ owner_email }}' title='{{ owner_email }}'>{{ owner_email }}</a>, who is currently authorized to upgrade the current plan.",
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_OWNER_WITH_LIMITED_PLAN": "This project currently has <strong>{{members}}</strong> members, which is the maximum allowed. If you would like to <strong>add more members</strong>, please upgrade your plan."
+        }
+    },
+    "LIGHTBOX": {
+        "CREATE_MEMBER": {
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_OWNER": "Stai per raggiungere il numero massimo di membri consentiti per questo progetto, cioè <strong>{{maxMembers}}</strong> membri. Se hai bisogno di aggiungerne altri, potresti prendere in considerazione di <a href='/user-settings/contrib/subscriptions' title='Subscribe to a paid plan'>sottoscrivere un piano prepagato</a>e se già ne hai uno, per favore contattaci a <a href='mailto:support@tuesmon.com' title='Contact Us at support@tuesmon.com'>support@tuesmon.com</a>."
+        }
+    },
+    "TUESMON_APP": {
+        "TITLE": "Subscriptions - User Profile - Tuesmon",
+        "SECTION_NAME": "Tuesmon App",
+        "SECTION_SUBTITLE": "Want to use Tuesmon on your mobile?",
+        "TUESMON_APP_DESCRIPTION": "<a href='http://www.tuesmonapp.com/' target='_blank'>TuesmonApp</a> is an application developed completely independent from Tuesmon.com but with which we have reached an agreement so you can use <strong>for free if you have a premium or enterprise plan</strong>",
+        "TUESMON_APP_DOWNLOAD": "Just download the application and synchronize your Tuesmon account entering next code:",
+        "TUESMON_APP_VALID": "This code is valid only for your Tuesmon account",
+        "TUESMON_APP_COPY_BUTTON": "Copy",
+        "TUESMON_APP_DEVELOPED": "TuesmonApp is developed by a totally independent team of Tuesmon.com.",
+        "TUESMON_APP_SAT": "To notify of any incident in the application, contact your customer service.",
+        "TUESMON_APP_UPGRADE": "If you want to enjoy free on your mobile, <a href='/user-settings/contrib/subscriptions'>upgrade your plan!</a>"
+    }
+}
